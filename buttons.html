@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <h2>Buttons</h2>
+    <br>
+    <div class="container">
+        <div class="row justify-content-center">
+            <button>Click me!</button>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <button class="btn btn-primary">Click me!</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light border">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+    <br>
+    <h2>Outline buttons</h2>
+    <br>
+    <div class="container">
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light border">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+    </div>
+    <br>
+    <h2>size of a button</h2>
+    <p>for larger or smaller buttons add .btn-lg or .btn-sm for additional sizes.</p>
+    <br>
+    <div class="container">
+        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        <button type="button" class="btn btn-primary">Regular button</button>
+        <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    </div>
+    <br>
+    <h2>Block buttons</h2>
+    <br>
+    <div class="d-grid gap-2">
+        <button type="button" class="btn btn-primary">Button</button>
+        <button type="button" class="btn btn-primary">Button</button>
+    </div>
+    <br>
+    <p>starting with vertically stacked buttons until the md breakpoint, where .d-md-block replaces the .d-grid class, thus nullifying the gap-2 utility.</p>
+    <div class="d-grid gap-2 d-md-block">
+        <button type="button" class="btn btn-primary">Button</button>
+        <button type="button" class="btn btn-primary">Button</button>
+      </div>
+    <br>
+    <p>for a half-width “block button”, use .col-6. Center it horizontally with .mx-auto, too.</p>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-primary">Button</button>
+        <button type="button" class="btn btn-primary">Button</button>
+      </div>
+    <br>
+    <p>taken our previous responsive example and added some flex utilities and a margin utility on the button to right align the buttons when they’re no longer stacked.</p>
+    <br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button type="button" class="btn btn-primary me-md-2">Button</button>
+        <button type="button" class="btn btn-primary">Button</button>
+    </div>
+    <br>
+    <h2>Button group</h2>
+    <br>
+    <p>Mixed styles</p>
+    <br>
+    <div class="btn-group-lg" role="group" aria-label="Basic mixed styles examples">
+        <button type="button" class="btn btn-danger">left button</button>
+        <button type="button" class="btn btn-warning">middle button</button>
+        <button type="button" class="btn btn-success">right button</button>
+    </div>
+    <br>
+    <h2>Button toolbar</h2>
+    <br>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button group">
+        <div class="btn-group me-2" role="group" aria-label="Frirst group">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-primary">2</button>
+            <button type="button" class="btn btn-primary">3</button>
+            <button type="button" class="btn btn-primary">4</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-primary">5</button>
+            <button type="button" class="btn btn-primary">6</button>
+            <button type="button" class="btn btn-primary">7</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-primary">8</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
